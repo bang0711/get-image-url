@@ -55,7 +55,7 @@ function HomePage({}: Props) {
         Upload
       </CldUploadButton>
       {urls.length > 0 && (
-        <div>
+        <div className="flex flex-col items-center justify-center gap-3">
           {urls.map((url, index) => (
             <div
               key={index}
